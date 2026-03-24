@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1a2b;
+  color: white;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #00c2ff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: #132c46;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h3 {
+  margin: 0;
+  color: #00c2ff;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+button {
+  background: #00c2ff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
