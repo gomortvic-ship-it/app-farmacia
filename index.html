@@ -7,6 +7,13 @@
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
+  <!-- Botón scanner -->
+<button id="btn-scanner" onclick="iniciarScanner()">📷 Escanear código</button>
+
+<!-- Contenedor cámara -->
+<div id="scanner-container" style="display:none; margin-top:10px;">
+  <video id="video-scanner" style="width:100%; max-width:400px; border-radius:8px;"></video>
+</div>
 <body>
 
 <h1>Farmacia JN</h1>
