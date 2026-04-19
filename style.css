@@ -16,7 +16,32 @@ input {
   font-size: 18px;
   border-radius: 10px;
   border: none;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Botón scanner */
+#btn-scanner {
+  width: 100%;
+  background: #005f7f;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
   margin-bottom: 15px;
+}
+
+/* Cámara */
+#scanner-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#video-scanner {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  border: 2px solid #00c2ff;
 }
 
 .card {
@@ -44,4 +69,20 @@ button {
   margin-right: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/* Precio con descuento */
+.precio-desc {
+  background: #0d3d1f;
+  padding: 8px;
+  border-radius: 8px;
+  color: #00ff88 !important;
+  font-size: 16px;
+}
+
+/* Mensaje sin resultados */
+#resultados p {
+  text-align: center;
+  color: #aaa;
+  margin-top: 20px;
 }
