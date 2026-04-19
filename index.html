@@ -7,21 +7,23 @@
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
-  <!-- Botón scanner -->
-<button id="btn-scanner" onclick="iniciarScanner()">📷 Escanear código</button>
-
-<!-- Contenedor cámara -->
-<div id="scanner-container" style="display:none; margin-top:10px;">
-  <video id="video-scanner" style="width:100%; max-width:400px; border-radius:8px;"></video>
-</div>
 <body>
 
-<h1>Farmacia JN</h1>
+  <h1>Farmacia JN</h1>
 
-<input type="text" id="buscador" placeholder="Buscar medicamento o código...">
+  <input type="text" id="buscador" placeholder="Buscar medicamento o código...">
 
-<div id="resultados"></div>
+  <!-- Botón scanner -->
+  <button id="btn-scanner" onclick="iniciarScanner()">📷 Escanear código</button>
 
-<script src="app.js"></script>
+  <!-- Contenedor cámara -->
+  <div id="scanner-container" style="display:none; margin-top:10px;">
+    <video id="video-scanner" style="width:100%; max-width:400px; border-radius:8px;"></video>
+  </div>
+
+  <div id="resultados"></div>
+
+  <script src="app.js"></script>
+
 </body>
 </html>
