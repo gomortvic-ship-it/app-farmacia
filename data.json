@@ -1371,13 +1371,13 @@
         "CODIGO": "CC30",
         "PRODUCTO": "CC c/30",
         "PRECIO": "250.0",
-        "DESCUENTO": "188.0"
+        "DESCUENTO": "250.0"
     },
     {
         "CODIGO": "CC60",
         "PRODUCTO": "CC c/60",
         "PRECIO": "400.0",
-        "DESCUENTO": "300.0"
+        "DESCUENTO": "400.0"
     },
     {
         "CODIGO": "7502009741050",
